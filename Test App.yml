@@ -83,7 +83,8 @@ appTemplate:
                 - verticalAlign: center
                 - scrollOverflow: false
                 - tooltipText: ''
-                - value: "**Hello** friend! \U0001F603\n\n"
+                - value: |
+                    Helllllllllooooooo
                 - renderAsHtml: false
                 - backgroundColor: '#0000'
                 - textColor: '#312929'
@@ -95,7 +96,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2020-07-10T23:48:54.757Z
-            updatedAt: 2020-07-10T23:48:55.298Z
+            updatedAt: 2020-07-10T23:48:59.532Z
   createdAt: null
   version: 2.60.11
   responsiveLayoutDisabled: false
