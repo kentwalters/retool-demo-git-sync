@@ -13,31 +13,66 @@ appTemplate:
             template:
               ordered:
                 - queryRefreshTime: ''
+                - paginationLimit: ''
                 - body: ''
                 - queryDisabledMessage: ''
                 - successMessage: ''
                 - queryDisabled: ''
+                - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
+                - paginationPaginationField: ''
                 - headers: ''
+                - paginationEnabled: false
                 - query: 'https://httpbin.org/get'
+                - playgroundQueryUuid: ''
+                - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
+                - runWhenPageLoadsDelay: ''
                 - data: null
+                - importedQueryInputs:
+                    ordered: []
+                - showSuccessConfetti: false
+                - isImported: false
                 - showSuccessToaster: true
+                - cacheKeyTtl: ''
                 - cookies: ''
+                - metadata: null
                 - triggersOnFailure: []
+                - errorTransformer: |-
+                    // type your code here
+                    // example: return data.find(element => element.isError)
+                    return data.error
                 - confirmationMessage: null
+                - isFetching: false
+                - rawData: null
+                - queryTriggerDelay: '0'
                 - watchedParams: []
+                - enableErrorTransformer: false
+                - paginationDataField: ''
                 - timestamp: 0
+                - importedQueryDefaults:
+                    ordered: []
+                - enableTransformer: false
                 - runWhenPageLoads: false
+                - transformer: >-
+                    // type your code here
+
+                    // example: return formatDataAsArray(data).filter(row =>
+                    row.quantity > 20)
+
+                    return data
                 - queryTimeout: '10001'
                 - requireConfirmation: false
                 - type: GET
+                - enableCaching: false
                 - bodyType: json
                 - queryThrottleTime: '750'
+            createdAt: 2020-07-10T23:48:53.465Z
+            updatedAt: 2020-07-10T23:48:53.466Z
   createdAt: null
-  version: null
+  version: 2.60.11
   responsiveLayoutDisabled: false
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
